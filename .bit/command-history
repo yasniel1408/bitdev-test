@@ -1,0 +1,19 @@
+2023-12-19T15:14:10.930Z 14730 create react-app mfes/footer --aspect teambit.react/react-env, started
+2023-12-19T15:15:16.531Z 14730 create react-app mfes/footer --aspect teambit.react/react-env, succeeded
+2023-12-19T15:21:32.989Z 15221 deps ser mfes/footer styled-component, started
+2023-12-19T15:21:43.508Z 15356 deps ser mfes/footer styled-components, started
+2023-12-19T15:23:07.016Z 15456 create react-app mfes/banner --aspect teambit.react/react-env, started
+2023-12-19T15:23:11.375Z 15456 create react-app mfes/banner --aspect teambit.react/react-env, succeeded
+2023-12-19T15:24:45.569Z 15672 deps set mfes/footer styled-components, started
+2023-12-19T15:24:47.287Z 15672 deps set mfes/footer styled-components, succeeded
+2023-12-19T15:24:54.892Z 15816 deps set mfes/banner styled-components, started
+2023-12-19T15:24:56.377Z 15816 deps set mfes/banner styled-components, succeeded
+2023-12-19T15:26:34.391Z 15927 start, started
+2023-12-19T15:33:49.732Z 16555 create react-app apps/my-app --aspect bitdev.react/react-env, started
+2023-12-19T15:34:36.114Z 16555 create react-app apps/my-app --aspect bitdev.react/react-env, succeeded
+2023-12-19T15:36:38.364Z 16783 app list, started
+2023-12-19T15:36:39.029Z 16783 app list, succeeded
+2023-12-19T15:38:16.071Z 16963 start, started
+2023-12-19T15:44:18.627Z 18262 create react-app mfes/button --aspect teambit.react/react-env, started
+2023-12-19T15:44:22.099Z 18262 create react-app mfes/button --aspect teambit.react/react-env, succeeded
+2023-12-19T16:36:07.657Z 20574 start, started

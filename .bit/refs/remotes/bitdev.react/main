@@ -1,0 +1,9 @@
+[
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "react-env"
+    },
+    "head": "e40e82d282904e739a61d8642a004b04ccd9e240"
+  }
+]
