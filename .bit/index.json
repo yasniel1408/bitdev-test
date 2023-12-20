@@ -1983,6 +1983,110 @@
       },
       "isSymlink": false,
       "hash": "332d61722e10572fbaef5995407ebdce773c6a7e"
+    },
+    {
+      "id": {
+        "scope": "bitdev.react",
+        "name": "app-types/vite-react"
+      },
+      "isSymlink": false,
+      "hash": "7c7b0e8b950507675eb26a304d7d26defab275a7"
+    },
+    {
+      "id": {
+        "scope": "teambit.vite",
+        "name": "esm-packages/vite"
+      },
+      "isSymlink": false,
+      "hash": "932465eb0f214895240e9de377fdfc28af107602"
+    },
+    {
+      "id": {
+        "scope": "teambit.node",
+        "name": "node-async-esm"
+      },
+      "isSymlink": false,
+      "hash": "2828e97cb9d0240a12b3cf794301a2293a32b29c"
+    },
+    {
+      "id": {
+        "scope": "bitdev.react",
+        "name": "generators/react-templates"
+      },
+      "isSymlink": false,
+      "hash": "2600295dadd1098dcd190766639d8980d7db19b2"
+    },
+    {
+      "id": {
+        "scope": "teambit.vite",
+        "name": "vitest-tester"
+      },
+      "isSymlink": false,
+      "hash": "dff09a20204dfceeb94a7861a2115fd071806aed"
+    },
+    {
+      "id": {
+        "scope": "teambit.toolbox",
+        "name": "performance/v8-cache"
+      },
+      "isSymlink": false,
+      "hash": "b1727ee945b64193ec9981bf8736561ee66015ba"
+    },
+    {
+      "id": {
+        "scope": "teambit.vite",
+        "name": "esm-packages/vitest"
+      },
+      "isSymlink": false,
+      "hash": "603e1cfcb248477e22ffdea58ee0a8c5ca35e326"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "apps/my-app"
+      },
+      "isSymlink": false,
+      "hash": "ea6ba7531e272d6312da30e2a084eb034693a9e9"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "components/banner"
+      },
+      "isSymlink": false,
+      "hash": "146501ea2a6652726b3c202f15614a54a9ad6257"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "components/button"
+      },
+      "isSymlink": false,
+      "hash": "8c194265a6e795e8cd83eda46eae18337cf703e9"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "components/footer"
+      },
+      "isSymlink": false,
+      "hash": "2fa2993363ec708a2b6c16daede591097b40cd72"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "components/layout"
+      },
+      "isSymlink": false,
+      "hash": "07f6255849a76493e6f0ae1f2b20610e94839395"
+    },
+    {
+      "id": {
+        "scope": "test-organization-bit.my-scope",
+        "name": "hello-world"
+      },
+      "isSymlink": false,
+      "hash": "ef9c24ecfad9c6241527a2e193ec208896da9cab"
     }
   ],
   "lanes": []

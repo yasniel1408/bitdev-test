@@ -1,4 +1,4 @@
-# Comandos para comenzar
+# Comandos para comenzar - DESARROLLO LOCAL - Tipo Monorepo
 
 ## 1- Install bit en la pc
 
@@ -14,19 +14,19 @@ bit init
 
 ## 3- Despues dentro del archivo workspace.jsonc podemos modificar los nombres del workspace y el default space
 
-## 4- Crear proyecto de react en un scope
+## 4- Crear libreria de react en un scope, tomara el scope del workspace.jsonc
 
 ```
-    bit create react-app mfes/footer --aspect teambit.react/react-env
+    bit create react-app components/footer --aspect teambit.react/react-env
 ```
 
 ## 5- Para instalar librerias dentro de un proyecto
 
 ```
-    bit deps set mfes/footer styled-components
+    bit deps set components/footer styled-components
 ```
 
-## 6- Para correr el core de bit y ver los components, mfes, apps
+## 6- Para correr el core de bit y ver los components, components, apps
 
 ```
     bit create react-app apps/my-app --aspect bitdev.react/react-env
@@ -36,4 +36,10 @@ bit init
 
 ```
 bit use apps/my-app
+```
+
+## 7- Para correr una app
+
+```
+bit run my-app
 ```

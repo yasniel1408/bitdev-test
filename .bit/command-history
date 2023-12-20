@@ -1,19 +1,142 @@
-2023-12-19T15:14:10.930Z 14730 create react-app mfes/footer --aspect teambit.react/react-env, started
-2023-12-19T15:15:16.531Z 14730 create react-app mfes/footer --aspect teambit.react/react-env, succeeded
-2023-12-19T15:21:32.989Z 15221 deps ser mfes/footer styled-component, started
-2023-12-19T15:21:43.508Z 15356 deps ser mfes/footer styled-components, started
-2023-12-19T15:23:07.016Z 15456 create react-app mfes/banner --aspect teambit.react/react-env, started
-2023-12-19T15:23:11.375Z 15456 create react-app mfes/banner --aspect teambit.react/react-env, succeeded
-2023-12-19T15:24:45.569Z 15672 deps set mfes/footer styled-components, started
-2023-12-19T15:24:47.287Z 15672 deps set mfes/footer styled-components, succeeded
-2023-12-19T15:24:54.892Z 15816 deps set mfes/banner styled-components, started
-2023-12-19T15:24:56.377Z 15816 deps set mfes/banner styled-components, succeeded
+2023-12-19T15:14:10.930Z 14730 create react-app components/footer --aspect teambit.react/react-env, started
+2023-12-19T15:15:16.531Z 14730 create react-app components/footer --aspect teambit.react/react-env, succeeded
+2023-12-19T15:21:32.989Z 15221 deps ser components/footer styled-component, started
+2023-12-19T15:21:43.508Z 15356 deps ser components/footer styled-components, started
+2023-12-19T15:23:07.016Z 15456 create react-app components/banner --aspect teambit.react/react-env, started
+2023-12-19T15:23:11.375Z 15456 create react-app components/banner --aspect teambit.react/react-env, succeeded
+2023-12-19T15:24:45.569Z 15672 deps set components/footer styled-components, started
+2023-12-19T15:24:47.287Z 15672 deps set components/footer styled-components, succeeded
+2023-12-19T15:24:54.892Z 15816 deps set components/banner styled-components, started
+2023-12-19T15:24:56.377Z 15816 deps set components/banner styled-components, succeeded
 2023-12-19T15:26:34.391Z 15927 start, started
 2023-12-19T15:33:49.732Z 16555 create react-app apps/my-app --aspect bitdev.react/react-env, started
 2023-12-19T15:34:36.114Z 16555 create react-app apps/my-app --aspect bitdev.react/react-env, succeeded
 2023-12-19T15:36:38.364Z 16783 app list, started
 2023-12-19T15:36:39.029Z 16783 app list, succeeded
 2023-12-19T15:38:16.071Z 16963 start, started
-2023-12-19T15:44:18.627Z 18262 create react-app mfes/button --aspect teambit.react/react-env, started
-2023-12-19T15:44:22.099Z 18262 create react-app mfes/button --aspect teambit.react/react-env, succeeded
+2023-12-19T15:44:18.627Z 18262 create react-app components/button --aspect teambit.react/react-env, started
+2023-12-19T15:44:22.099Z 18262 create react-app components/button --aspect teambit.react/react-env, succeeded
 2023-12-19T16:36:07.657Z 20574 start, started
+2023-12-19T16:59:56.725Z 23081 status, started
+2023-12-19T16:59:58.715Z 23081 status, succeeded
+2023-12-19T17:16:14.643Z 23569 import test-organization-bit.my-scope/**, started
+2023-12-19T17:16:15.278Z 23569 import test-organization-bit.my-scope/**, failed
+2023-12-19T17:16:35.267Z 23683 login, started
+2023-12-19T17:16:37.182Z 23683 login, succeeded
+2023-12-19T17:18:16.871Z 23809 import test-organization-bit.my-scope/**, started
+2023-12-19T17:18:37.032Z 23809 import test-organization-bit.my-scope/**, failed
+2023-12-19T17:18:55.905Z 23938 list app, started
+2023-12-19T17:18:56.476Z 23938 list app, failed
+2023-12-19T17:19:05.097Z 23972 list apps, started
+2023-12-19T17:19:05.636Z 23972 list apps, failed
+2023-12-19T17:19:10.716Z 24014 apps list, started
+2023-12-19T17:19:10.855Z 24014 apps list, succeeded
+2023-12-19T17:19:20.549Z 24052 components list, failed
+2023-12-19T17:19:27.530Z 24079 components list, failed
+2023-12-19T17:19:35.742Z 24108 lib list, failed
+2023-12-19T17:19:39.979Z 24135 libs list, failed
+2023-12-19T17:19:49.375Z 24234 scope list, started
+2023-12-19T17:19:49.506Z 24234 scope list, succeeded
+2023-12-19T17:30:25.638Z 24976 import test-organization-bit.my-scope/**, started
+2023-12-19T17:30:27.019Z 24976 import test-organization-bit.my-scope/**, failed
+2023-12-19T17:30:43.099Z 25018 export test-organization-bit.my-scope/**, started
+2023-12-19T17:30:43.361Z 25018 export test-organization-bit.my-scope/**, succeeded
+2023-12-19T17:30:55.106Z 25053 export test-organization-bit.my-scope/components**, started
+2023-12-19T17:30:55.357Z 25053 export test-organization-bit.my-scope/components**, succeeded
+2023-12-19T17:31:00.822Z 25087 export test-organization-bit.my-scope/components/**, started
+2023-12-19T17:31:01.077Z 25087 export test-organization-bit.my-scope/components/**, succeeded
+2023-12-19T17:31:19.801Z 25128 export test-organization-bit.my-scope/components/button/**, started
+2023-12-19T17:31:20.048Z 25128 export test-organization-bit.my-scope/components/button/**, succeeded
+2023-12-19T17:31:31.874Z 25235 export test-organization-bit.my-scope/components/button/**, started
+2023-12-19T17:31:32.121Z 25235 export test-organization-bit.my-scope/components/button/**, succeeded
+2023-12-19T17:31:51.568Z 25278 export test-organization-bit.my-scope/components/button/**, started
+2023-12-19T17:31:51.813Z 25278 export test-organization-bit.my-scope/components/button/**, succeeded
+2023-12-19T17:33:53.406Z 25378 status, started
+2023-12-19T17:33:54.454Z 25378 status, succeeded
+2023-12-19T17:34:45.131Z 25557 start, started
+2023-12-19T17:36:05.486Z 25851 start, started
+2023-12-19T17:38:26.473Z 26144 install, started
+2023-12-19T17:38:44.135Z 26144 install, succeeded
+2023-12-19T17:38:51.353Z 26291 start, started
+2023-12-19T17:39:49.021Z 26399 install, started
+2023-12-19T17:40:01.371Z 26399 install, succeeded
+2023-12-19T17:40:21.974Z 26564 start, started
+2023-12-19T17:47:34.692Z 27092 tag, started
+2023-12-19T17:47:36.301Z 27092 tag, succeeded
+2023-12-19T17:48:42.065Z 27168 create node hello-world --scope test-organization-bit.my-scope, started
+2023-12-19T17:48:42.225Z 27168 create node hello-world --scope test-organization-bit.my-scope, failed
+2023-12-19T17:48:57.438Z 27280 export, started
+2023-12-19T17:48:58.308Z 27280 export, failed
+2023-12-19T17:49:18.286Z 27336 export, started
+2023-12-19T17:49:18.970Z 27336 export, failed
+2023-12-19T17:50:36.332Z 27437 export, started
+2023-12-19T17:50:37.272Z 27437 export, failed
+2023-12-19T17:50:52.733Z 27545 remote, started
+2023-12-19T17:50:52.866Z 27545 remote, succeeded
+2023-12-19T17:50:56.573Z 27572 remote, started
+2023-12-19T17:50:56.776Z 27572 remote, succeeded
+2023-12-19T17:51:04.125Z 27601 remote, started
+2023-12-19T17:51:04.256Z 27601 remote, succeeded
+2023-12-19T17:51:09.555Z 27629 remotes, failed
+2023-12-19T17:51:13.607Z 27651 remote, started
+2023-12-19T17:51:13.798Z 27651 remote, succeeded
+2023-12-19T17:52:24.033Z 27711 create react-app components/layout --aspect teambit.react/react-env, started
+2023-12-19T17:52:30.250Z 27711 create react-app components/layout --aspect teambit.react/react-env, succeeded
+2023-12-19T17:56:50.398Z 28097 i, failed
+2023-12-19T17:56:57.580Z 28196 install, started
+2023-12-19T17:57:08.475Z 28196 install, succeeded
+2023-12-19T17:57:16.505Z 28273 start, started
+2023-12-19T17:58:18.899Z 28457 start, started
+2023-12-19T17:58:43.949Z 28559 install, started
+2023-12-19T17:58:47.025Z 28559 install, succeeded
+2023-12-19T17:58:52.642Z 28611 start, started
+2023-12-19T17:59:26.036Z 28711 create react-app components/layout --aspect teambit.react/react-env, started
+2023-12-19T17:59:29.390Z 28711 create react-app components/layout --aspect teambit.react/react-env, failed
+2023-12-19T17:59:42.679Z 28848 create react-app components/layout --aspect teambit.react/react-env, started
+2023-12-19T17:59:44.662Z 28848 create react-app components/layout --aspect teambit.react/react-env, failed
+2023-12-19T18:00:31.246Z 28914 create react-app components/layout --aspect teambit.react/react-env, started
+2023-12-19T18:00:41.871Z 28914 create react-app components/layout --aspect teambit.react/react-env, succeeded
+2023-12-19T18:00:57.801Z 29070 start, started
+2023-12-19T18:03:00.905Z 29318 create node hello-world --scope test-organization-bit.my-scope, started
+2023-12-19T18:03:01.058Z 29318 create node hello-world --scope test-organization-bit.my-scope, failed
+2023-12-19T18:03:08.509Z 29355 tag, started
+2023-12-19T18:03:10.500Z 29355 tag, succeeded
+2023-12-19T18:03:36.812Z 29401 export, started
+2023-12-19T18:03:37.489Z 29401 export, failed
+2023-12-19T18:03:45.594Z 29442 remote, started
+2023-12-19T18:03:45.726Z 29442 remote, succeeded
+2023-12-19T18:05:55.988Z 29520 status, started
+2023-12-19T18:05:57.161Z 29520 status, succeeded
+2023-12-19T18:06:24.223Z 29630 export, started
+2023-12-19T18:06:25.063Z 29630 export, failed
+2023-12-19T18:06:28.764Z 29662 login, started
+2023-12-19T18:06:28.958Z 29662 login, succeeded
+2023-12-19T18:06:33.848Z 29687 remote, started
+2023-12-19T18:06:34.030Z 29687 remote, succeeded
+2023-12-19T18:10:17.433Z 29853 start, started
+2023-12-19T18:11:14.630Z 30009 run my-scope/apps/my-app, started
+2023-12-19T18:11:14.811Z 30009 run my-scope/apps/my-app, failed
+2023-12-19T18:11:29.243Z 30046 run my-app, started
+2023-12-19T18:45:59.881Z 35607 install @test-organization-bit/my-scope.hello-world, started
+2023-12-19T18:46:13.211Z 35607 install @test-organization-bit/my-scope.hello-world, succeeded
+2023-12-19T18:48:09.864Z 35846 start, started
+2023-12-19T18:52:51.439Z 36185 compile, started
+2023-12-19T18:52:52.271Z 36185 compile, succeeded
+2023-12-19T18:53:00.606Z 36236 start, started
+2023-12-20T12:27:24.643Z 42721 install, started
+2023-12-20T12:27:29.954Z 42721 install, succeeded
+2023-12-20T12:27:38.237Z 42861 start, started
+2023-12-20T12:28:39.334Z 43035 install, started
+2023-12-20T12:28:42.525Z 43035 install, succeeded
+2023-12-20T12:28:49.267Z 43104 start, started
+2023-12-20T12:30:11.832Z 43274 install, started
+2023-12-20T12:30:18.052Z 43274 install, succeeded
+2023-12-20T12:30:56.403Z 43376 install @test-organization-bit/my-scope.hello-world, started
+2023-12-20T12:31:02.064Z 43376 install @test-organization-bit/my-scope.hello-world, succeeded
+2023-12-20T12:31:15.114Z 43443 start, started
+2023-12-20T13:26:21.987Z 4200 start, started
+2023-12-20T13:58:37.460Z 8141 install @test-organization-bit/my-scope.hello-world, started
+2023-12-20T13:58:41.386Z 8141 install @test-organization-bit/my-scope.hello-world, succeeded
+2023-12-20T13:58:50.008Z 8208 install @test-organization-bit/my-scope2.hello-world2, started
+2023-12-20T13:58:55.958Z 8208 install @test-organization-bit/my-scope2.hello-world2, succeeded
+2023-12-20T13:59:24.801Z 8363 start, started

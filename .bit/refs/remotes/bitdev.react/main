@@ -5,5 +5,26 @@
       "name": "react-env"
     },
     "head": "e40e82d282904e739a61d8642a004b04ccd9e240"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "app-types/vite-react"
+    },
+    "head": "f2411b2f11c16d4ced39e56301e84231053357bf"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "generators/react-templates"
+    },
+    "head": "f6dc5b649c18e474bc56c2ac840e0c3a44d3aea6"
+  },
+  {
+    "id": {
+      "scope": "bitdev.react",
+      "name": "webpack/refresh-overlay"
+    },
+    "head": "b6675fdbe31d1de523cb0d18492e759e553e86e9"
   }
 ]

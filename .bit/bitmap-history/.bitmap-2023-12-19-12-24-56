@@ -9,13 +9,13 @@
  */
 
 {
-    "mfes/banner": {
-        "name": "mfes/banner",
+    "components/banner": {
+        "name": "components/banner",
         "scope": "",
         "version": "",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/mfes/banner",
+        "rootDir": "my-scope/components/banner",
         "config": {
             "teambit.react/react-env@1.0.34": {},
             "teambit.envs/envs": {
@@ -23,13 +23,13 @@
             }
         }
     },
-    "mfes/footer": {
-        "name": "mfes/footer",
+    "components/footer": {
+        "name": "components/footer",
         "scope": "",
         "version": "",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/mfes/footer",
+        "rootDir": "my-scope/components/footer",
         "config": {
             "teambit.react/react-env@1.0.34": {},
             "teambit.envs/envs": {

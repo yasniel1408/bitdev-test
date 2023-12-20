@@ -12,72 +12,42 @@
     "apps/my-app": {
         "name": "apps/my-app",
         "scope": "",
-        "version": "",
+        "version": "0.0.2",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/apps/my-app",
-        "config": {
-            "bitdev.react/react-env@1.1.13": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "my-scope/apps/my-app"
     },
-    "mfes/banner": {
-        "name": "mfes/banner",
+    "components/banner": {
+        "name": "components/banner",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/mfes/banner",
-        "config": {
-            "teambit.react/react-env@1.0.34": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "styled-components": "6.1.1"
-                    }
-                }
-            }
-        }
+        "rootDir": "my-scope/components/banner"
     },
-    "mfes/button": {
-        "name": "mfes/button",
+    "components/button": {
+        "name": "components/button",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/mfes/button",
-        "config": {
-            "teambit.react/react-env@1.0.34": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            }
-        }
+        "rootDir": "my-scope/components/button"
     },
-    "mfes/footer": {
-        "name": "mfes/footer",
+    "components/footer": {
+        "name": "components/footer",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/mfes/footer",
-        "config": {
-            "teambit.react/react-env@1.0.34": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "styled-components": "6.1.1"
-                    }
-                }
-            }
-        }
+        "rootDir": "my-scope/components/footer"
+    },
+    "components/layout": {
+        "name": "components/layout",
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "my-scope",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/components/layout"
     },
     "$schema-version": "17.0.0"
 }

@@ -1,0 +1,89 @@
+[
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "apps/my-app",
+      "version": "0.0.1"
+    }
+  },
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "components/banner",
+      "version": "0.0.1"
+    },
+    "config": {
+      "teambit.react/react-env@1.0.34": {
+        "__specific": true
+      },
+      "teambit.envs/envs": {
+        "env": "teambit.react/react-env",
+        "__specific": true
+      },
+      "teambit.dependencies/dependency-resolver": {
+        "policy": {
+          "dependencies": {
+            "styled-components": "6.1.1"
+          }
+        },
+        "__specific": true
+      }
+    }
+  },
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "components/button",
+      "version": "0.0.1"
+    },
+    "config": {
+      "teambit.react/react-env@1.0.34": {
+        "__specific": true
+      },
+      "teambit.envs/envs": {
+        "env": "teambit.react/react-env",
+        "__specific": true
+      }
+    }
+  },
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "components/footer",
+      "version": "0.0.1"
+    },
+    "config": {
+      "teambit.react/react-env@1.0.34": {
+        "__specific": true
+      },
+      "teambit.envs/envs": {
+        "env": "teambit.react/react-env",
+        "__specific": true
+      },
+      "teambit.dependencies/dependency-resolver": {
+        "policy": {
+          "dependencies": {
+            "styled-components": "6.1.1"
+          }
+        },
+        "__specific": true
+      }
+    }
+  },
+  {
+    "id": {
+      "name": "components/layout",
+      "version": "0.0.1",
+      "scope": "my-scope"
+    },
+    "config": {
+      "teambit.react/react-env@1.0.34": {
+        "__specific": true
+      },
+      "teambit.envs/envs": {
+        "env": "teambit.react/react-env",
+        "__specific": true
+      }
+    }
+  }
+]

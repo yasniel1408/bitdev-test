@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "my-workspace-name",
+    "name": "organization",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -54,6 +54,8 @@
     "policy": {
       "dependencies": {
         "@bitdev/react.app-types.vite-react": "^1.1.10",
+        "@test-organization-bit/my-scope.hello-world": "^0.0.2",
+        "@test-organization-bit/my-scope2.hello-world2": "^0.0.2",
         "@vitejs/plugin-react": "^4.2.1",
         "vite": "^5.0.10"
       },
