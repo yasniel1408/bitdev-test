@@ -140,3 +140,5 @@
 2023-12-20T13:58:50.008Z 8208 install @test-organization-bit/my-scope2.hello-world2, started
 2023-12-20T13:58:55.958Z 8208 install @test-organization-bit/my-scope2.hello-world2, succeeded
 2023-12-20T13:59:24.801Z 8363 start, started
+2023-12-20T14:13:35.913Z 8961 start, started
+2023-12-20T14:21:09.280Z 10951 start, started
