@@ -12,7 +12,7 @@ npx @teambit/bvm install
 bit init
 ```
 
-## 3- Después, dentro del archivo `workspace.jsonc`, podemos modificar los nombres del workspace y el defaultScope
+## 3- Después, dentro del archivo `workspace.jsonc`, podemos modificar los nombres de la organización y el defaultScope
 
 ## 4- Crear una biblioteca de React en un scope, tomará el scope del `workspace.jsonc`
 
