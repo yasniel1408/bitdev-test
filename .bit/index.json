@@ -2087,6 +2087,14 @@
       },
       "isSymlink": false,
       "hash": "ef9c24ecfad9c6241527a2e193ec208896da9cab"
+    },
+    {
+      "id": {
+        "scope": "test-organization-bit.my-scope2",
+        "name": "hello-world2"
+      },
+      "isSymlink": false,
+      "hash": "71ad42cbe301ad50f081a9e05becc9d0c4ed839b"
     }
   ],
   "lanes": []

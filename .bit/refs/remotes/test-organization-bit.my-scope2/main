@@ -1,0 +1,9 @@
+[
+  {
+    "id": {
+      "scope": "test-organization-bit.my-scope2",
+      "name": "hello-world2"
+    },
+    "head": "9748c53d52f1bd10c37665ccf671afd2aee02f04"
+  }
+]
