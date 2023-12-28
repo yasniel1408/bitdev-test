@@ -72,9 +72,9 @@
   },
   {
     "id": {
+      "scope": "my-scope",
       "name": "components/layout",
-      "version": "0.0.1",
-      "scope": "my-scope"
+      "version": "0.0.1"
     },
     "config": {
       "teambit.react/react-env@1.0.34": {

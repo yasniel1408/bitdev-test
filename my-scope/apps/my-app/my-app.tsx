@@ -8,6 +8,9 @@ import {HelloWorld2} from '@test-organization-bit/my-scope2.hello-world2';
 
 
 export function MyApp() {
+  console.log({process})
+  const t = process.env.REACT_APP_TEXT
+
   return (
     <Routes>
       <Route path="/"
@@ -20,6 +23,7 @@ export function MyApp() {
         <Layout>
           <h1>Aqui va el contenido de la página</h1>
         </Layout>
+        <p>AQUI: {t}</p>
         <Footer/>
       </>
     } />

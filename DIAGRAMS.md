@@ -1,8 +1,11 @@
 # Que es Bit.dev? ![./bitdev.png](https://avatars.githubusercontent.com/u/24789812?s=50&v=4)
 
-doc: https://bit.dev/
-github: https://github.com/teambit
-bit.cloud: https://bit.cloud/enterprise
+* doc: https://bit.dev/
+* github: https://github.com/teambit
+* bit.cloud: https://bit.cloud/enterprise
+
+Un sistema de creación de software de nueva generación para Software Descentralizado basado en Component Drive Development o Software Componible.
+<img src="./imgs/monolith-to-composable-platform.svg" alt="Descripción de la imagen"/>
 
 
 ![./bitdev.png](https://static.bit.dev/brands/logo-typescript.svg)
@@ -15,45 +18,10 @@ bit.cloud: https://bit.cloud/enterprise
 ### 1- Bit es un sistema de compilación para software componible. 
 * Hace que la composición de aplicaciones a partir de componentes con versiones independientes sea fluida y rápida.
 
-```mermaid
-graph TD
-  A[Software Componible]
-  B[(Componente 1)]
-  C[(Componente 2)]
-  D[(Componente 3)]
-  E[(...)]
+<img width="400" src="./imgs/harmony-platform-architecture.svg" alt="Descripción de la imagen"/>
 
-  style A fill:green,stroke:#fff,stroke-width:2px,color:#fff;
-  style B fill:magenta,stroke:#fff,stroke-width:2px,color:#fff;
-  style C fill:orange,stroke:#fff,stroke-width:2px,color:#fff;
-  style D fill:yellow,stroke:#fff,stroke-width:2px,color:#000;
-  style E fill:#66ccff,stroke:#fff,stroke-width:2px,color:#fff;
+<img width="400" src="./imgs/feature-team-v2.svg" alt="Descripción de la imagen"/>
 
-  subgraph Software Componible
-    A
-  end
-
-    subgraph Componentes en Bit.cloud
-        subgraph Container
-            B
-        end
-        subgraph Container
-            C
-        end
-        subgraph Container
-            D
-        end
-        subgraph Container
-            E
-        end
-    end
-
-  A --> B
-  A --> C
-  A --> D
-  A --> E
-
-```
 
 ### 2- La principal innovación de Bit es Bit Component 
 * Bit Component es un contenedor para componentes de software componibles completamente desacoplado.
@@ -145,11 +113,12 @@ graph TD
 
 ```
 
-### 3- La gente suele utilizar Bit para ejecutar una arquitectura: 
+### 3- La gente suele utilizar Bit para: 
+* Librerias
 * Monorepo
 * Polyrepo o Microrepo
-* Distribuida o Microfrontend
-
+* Microservicios
+* Microfrontend
 
 ### 4- Bit está diseñado para una adopción incremental 
 * Adopción incremental y se puede agregar a la mayoría de las bases de código en pocos minutos.
@@ -301,3 +270,120 @@ sequenceDiagram
     Developer(Local)-->>+Developer(Local): (6)Instalar dependencias (bit install @org/scope.name)
    
 ```
+
+# Propueta de adopción gradual de Bit.dev
+```mermaid
+    graph TD
+    subgraph "Adopción gradual de Bit.dev"
+        A((Inicio))
+        B(Temas y colores)
+        C[Fuentes y Tamaños]
+        D[Àtomos]
+        E[Moléculas]
+        F[Organismos]
+        G[Plantillas o Layouts]
+        H[Páginas]
+        
+
+        style A fill:blue,stroke:#006699,stroke-width:2px,color:#fff;
+        style B fill:red,stroke:#006699,stroke-width:2px,color:#fff;
+        style C fill:orange,stroke:#006699,stroke-width:2px,color:#fff;
+        style D fill:green,stroke:#006699,stroke-width:2px,color:#fff;
+        style E fill:blue,stroke:#006699,stroke-width:2px,color:#fff;
+        style F fill:magenta,stroke:#006699,stroke-width:2px,color:#fff;
+        style G fill:blak,stroke:#006699,stroke-width:2px,color:#fff;
+        style H fill:purple,stroke:#006699,stroke-width:2px,color:#fff;
+        
+
+        A --> B
+        B --> C
+        C --> D
+        D --> E
+        E --> F
+        F --> G
+        G --> H
+    end
+
+    subgraph "Ejemplo Átomos"
+        style AI fill:green,stroke:#006699,stroke-width:2px,color:#fff;
+        
+        AI[Átomos]
+        AJ[h1]
+        AK[h2]
+        AL[Iconos]
+        AM[Box]
+        AN[Input]
+        AO[Grid]
+        AP[Button]
+        D -..-> AI
+    end
+
+    subgraph "Ejemplo Moléculas"  
+        style MI fill:blue,stroke:#006699,stroke-width:2px,color:#fff;
+
+        MI[Moléculas]
+        MJ[SearchBar]
+        MK[Card]
+        ML[List]
+        MM[Accordion]
+        MN[LoginForm]
+        E -..-> MI
+    end
+
+    subgraph "Ejemplo de Organismos"
+        style OI fill:magenta,stroke:#006699,stroke-width:2px,color:#fff;
+
+        OI[Organismos]
+        OJ[NavBar]
+        OK[Footer]
+        OL[Carrusel]
+        OO[RigthSideBar]
+        F -..-> OI
+    end
+
+    subgraph "Ejemplo de Plantillas o Layouts"
+        style LI fill:blak,stroke:#006699,stroke-width:2px,color:#fff;
+
+        LI[Plantillas o Layouts]
+        LJ[PublicLayout]
+        LK[PrivateLayout]
+        LL[PLPLayout]
+        LM[PDPLayout]
+        G -..-> LI
+    end
+
+    subgraph "Ejemplo de Páginas"
+        style PP fill:purple,stroke:#006699,stroke-width:2px,color:#fff;
+
+        PP[Páginas]
+        PI[HomePage]
+        PJ[PDPPage]
+        PK[PLPPage]
+        P[AccountPage]
+        H -..-> PP
+    end
+
+```
+
+# Pros y Contras de Bit.dev
+### Pros
+* Es open source.
+* Hace que la composición de aplicaciones a partir de componentes con versiones independientes sea fluida y rápida.
+* El desacoplamiento hace que sea extensible, portátil y de fácil mantenimiento.
+* La gente suele utilizar Bit para ejecutar una arquitectura: 
+  * Librerias
+  * Monorepo
+  * Polyrepo o Microrepo
+  * Microservicios
+  * Microfrontend
+* Bit nos abstrae del framework, empaquetador y administrador de paquetes lo que significa que puedes usarlo con cualquier marco de framework o librería, proporcionando plantillas para los marcos más populares y una CLI para los comando más comunes.
+* Posibilidad de incrustar figma al lado del componente.
+* Posibilidad de documentar el componente usando storybook o Markdown eXtended.
+* Contiene Ripple CI que es un sistema de CI que se ejecuta en la nube para asegurarnos que el componente funciona correctamente.
+* Contiene auto-tagging que es un sistema de versionamiento automático.
+* Nos permite ver analíticas de uso de los componentes y un gráfico de dependencias.
+
+### Contras
+* Bit.dev es una herramienta muy nueva.
+* Bit.dev es una herramienta un poco compleja de aplicar en proyectos ya iniciados.
+* Bit.dev tiene una documentación no muy explicita.
