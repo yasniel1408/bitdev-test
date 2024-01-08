@@ -376,19 +376,19 @@ importers:
         version: 1.6.22(react@18.2.0)
       '@my-scope/apps.my-app':
         specifier: workspace:*
-        version: file:my-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
+        version: file:remote-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
       '@my-scope/components.banner':
         specifier: workspace:*
-        version: file:my-scope/components/banner(react-dom@18.2.0)
+        version: file:remote-scope/components/banner(react-dom@18.2.0)
       '@my-scope/components.button':
         specifier: workspace:*
-        version: file:my-scope/components/button(react-dom@18.2.0)
+        version: file:remote-scope/components/button(react-dom@18.2.0)
       '@my-scope/components.footer':
         specifier: workspace:*
-        version: file:my-scope/components/footer(react-dom@18.2.0)
+        version: file:remote-scope/components/footer(react-dom@18.2.0)
       '@my-scope/components.layout':
         specifier: workspace:*
-        version: file:my-scope/components/layout(react-dom@18.2.0)
+        version: file:remote-scope/components/layout(react-dom@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -477,19 +477,19 @@ importers:
         version: 1.6.22(react@18.2.0)
       '@my-scope/apps.my-app':
         specifier: workspace:*
-        version: file:my-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
+        version: file:remote-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
       '@my-scope/components.banner':
         specifier: workspace:*
-        version: file:my-scope/components/banner(react-dom@18.2.0)
+        version: file:remote-scope/components/banner(react-dom@18.2.0)
       '@my-scope/components.button':
         specifier: workspace:*
-        version: file:my-scope/components/button(react-dom@18.2.0)
+        version: file:remote-scope/components/button(react-dom@18.2.0)
       '@my-scope/components.footer':
         specifier: workspace:*
-        version: file:my-scope/components/footer(react-dom@18.2.0)
+        version: file:remote-scope/components/footer(react-dom@18.2.0)
       '@my-scope/components.layout':
         specifier: workspace:*
-        version: file:my-scope/components/layout(react-dom@18.2.0)
+        version: file:remote-scope/components/layout(react-dom@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -588,19 +588,19 @@ importers:
         version: 1.6.22(react@18.2.0)
       '@my-scope/apps.my-app':
         specifier: workspace:*
-        version: file:my-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
+        version: file:remote-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0)
       '@my-scope/components.banner':
         specifier: workspace:*
-        version: file:my-scope/components/banner(react-dom@18.2.0)
+        version: file:remote-scope/components/banner(react-dom@18.2.0)
       '@my-scope/components.button':
         specifier: workspace:*
-        version: file:my-scope/components/button(react-dom@18.2.0)
+        version: file:remote-scope/components/button(react-dom@18.2.0)
       '@my-scope/components.footer':
         specifier: workspace:*
-        version: file:my-scope/components/footer(react-dom@18.2.0)
+        version: file:remote-scope/components/footer(react-dom@18.2.0)
       '@my-scope/components.layout':
         specifier: workspace:*
-        version: file:my-scope/components/layout(react-dom@18.2.0)
+        version: file:remote-scope/components/layout(react-dom@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -20056,9 +20056,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
   file:my-scope/apps/my-app(react-dom@18.2.0)(react-router-dom@6.21.0):
-    resolution: {directory: my-scope/apps/my-app, type: directory}
-    id: file:my-scope/apps/my-app
-    name: '@my-scope/apps.my-app'
+    resolution: {directory: remote-scope/apps/my-app, type: directory}
+    id: file:remote-scope/apps/my-app
+    name: '@remote-scope/apps.my-app'
     peerDependencies:
       react-dom: '*'
       react-router-dom: '*'
@@ -20072,10 +20072,10 @@ packages:
       '@bitdev/react.app-types.vite-react': 1.1.10(sass@1.69.5)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
-      '@my-scope/components.banner': file:my-scope/components/banner(react-dom@18.2.0)
-      '@my-scope/components.button': file:my-scope/components/button(react-dom@18.2.0)
-      '@my-scope/components.footer': file:my-scope/components/footer(react-dom@18.2.0)
-      '@my-scope/components.layout': file:my-scope/components/layout(react-dom@18.2.0)
+      '@my-scope/components.banner': file:remote-scope/components/banner(react-dom@18.2.0)
+      '@my-scope/components.button': file:remote-scope/components/button(react-dom@18.2.0)
+      '@my-scope/components.footer': file:remote-scope/components/footer(react-dom@18.2.0)
+      '@my-scope/components.layout': file:remote-scope/components/layout(react-dom@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@test-organization-bit/my-scope.hello-world': 0.0.2(react@18.2.0)
       '@test-organization-bit/my-scope2.hello-world2': 0.0.2(react@18.2.0)
@@ -20132,9 +20132,9 @@ packages:
     dev: false
 
   file:my-scope/components/banner(react-dom@18.2.0):
-    resolution: {directory: my-scope/components/banner, type: directory}
-    id: file:my-scope/components/banner
-    name: '@my-scope/components.banner'
+    resolution: {directory: remote-scope/components/banner, type: directory}
+    id: file:remote-scope/components/banner
+    name: '@remote-scope/components.banner'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
@@ -20159,9 +20159,9 @@ packages:
     dev: false
 
   file:my-scope/components/button(react-dom@18.2.0):
-    resolution: {directory: my-scope/components/button, type: directory}
-    id: file:my-scope/components/button
-    name: '@my-scope/components.button'
+    resolution: {directory: remote-scope/components/button, type: directory}
+    id: file:remote-scope/components/button
+    name: '@remote-scope/components.button'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
@@ -20186,9 +20186,9 @@ packages:
     dev: false
 
   file:my-scope/components/footer(react-dom@18.2.0):
-    resolution: {directory: my-scope/components/footer, type: directory}
-    id: file:my-scope/components/footer
-    name: '@my-scope/components.footer'
+    resolution: {directory: remote-scope/components/footer, type: directory}
+    id: file:remote-scope/components/footer
+    name: '@remote-scope/components.footer'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
@@ -20213,9 +20213,9 @@ packages:
     dev: false
 
   file:my-scope/components/layout(react-dom@18.2.0):
-    resolution: {directory: my-scope/components/layout, type: directory}
-    id: file:my-scope/components/layout
-    name: '@my-scope/components.layout'
+    resolution: {directory: remote-scope/components/layout, type: directory}
+    id: file:remote-scope/components/layout
+    name: '@remote-scope/components.layout'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
