@@ -1,7 +1,10 @@
 // import { Routes, Route } from 'react-router-dom';
-
+import {Button} from '@my-scope/components.button';
 export function Footer() {
-  return <h1>SOY EL FOOTER</h1>;
+  return <div>
+    <h1>SOY EL FOOTER</h1>
+    <Button/>
+  </div>;
   // return (
   //   <>
   //     <Routes>
