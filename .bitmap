@@ -12,7 +12,7 @@
     "apps/my-app": {
         "name": "apps/my-app",
         "scope": "",
-        "version": "0.0.3",
+        "version": "0.0.5",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/apps/my-app"
@@ -20,7 +20,7 @@
     "components/banner": {
         "name": "components/banner",
         "scope": "",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/components/banner"
@@ -28,7 +28,7 @@
     "components/button": {
         "name": "components/button",
         "scope": "",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/components/button"
@@ -36,7 +36,7 @@
     "components/footer": {
         "name": "components/footer",
         "scope": "",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/components/footer"
@@ -44,7 +44,7 @@
     "components/layout": {
         "name": "components/layout",
         "scope": "",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/components/layout"

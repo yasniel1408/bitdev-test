@@ -45,3 +45,10 @@ bit run my-app
 o
 bit start
 ```
+
+## 8 - Para correr los tests en local
+
+```
+bit config set force_local_build true
+export BIT_CONFIG_FORCE_LOCAL_BUILD=true
+```

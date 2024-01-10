@@ -2095,6 +2095,14 @@
       },
       "isSymlink": false,
       "hash": "71ad42cbe301ad50f081a9e05becc9d0c4ed839b"
+    },
+    {
+      "id": {
+        "scope": "bitdev.node",
+        "name": "node-env"
+      },
+      "isSymlink": false,
+      "hash": "ca06bbbbe1eefa9afb10aeb40fd66d33d9477d7e"
     }
   ],
   "lanes": []

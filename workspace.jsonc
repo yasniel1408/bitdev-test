@@ -35,14 +35,14 @@
    * comment in to include generator templates in your workspace.
    * browse more dev environments: https://bit.dev/docs/getting-started/composing/dev-environments
   **/
-  // "teambit.generator/generator": {
-  //   "envs": [
-  //     "bitdev.node/node-env",
-  //     "bitdev.react/react-env",
-  //     "bitdev.vue/vue-env",
-  //     "bitdev.angular/angular-env"
-  //   ]
-  // },
+  "teambit.generator/generator": {
+    "envs": [
+//      "bitdev.node/node-env",
+//      "bitdev.react/react-env"
+      //       "bitdev.vue/vue-env",
+      //       "bitdev.angular/angular-env"
+    ]
+  },
   /**
    * main configuration for component dependency resolution.
    **/
@@ -54,6 +54,14 @@
     "policy": {
       "dependencies": {
         "@bitdev/react.app-types.vite-react": "^1.1.10",
+        "@jest/test-result": "^29.6.1",
+        "@teambit/defender.jest-tester": "^1.0.13",
+        "@teambit/defender.tester-task": "0.0.6",
+        "@teambit/dependencies.modules.packages-excluder": "0.0.70",
+        "@teambit/design.embeds.figma": "^0.0.24",
+        "@teambit/node.node": "0.1.10",
+        "@teambit/react.jest.react-jest": "1.0.2",
+        "@teambit/tests-results": "0.0.104",
         "@test-organization-bit/my-scope.hello-world": "^0.0.2",
         "@test-organization-bit/my-scope2.hello-world2": "^0.0.2",
         "@vitejs/plugin-react": "^4.2.1",

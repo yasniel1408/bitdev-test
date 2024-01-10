@@ -4,7 +4,7 @@
       "scope": "bitdev.react",
       "name": "react-env"
     },
-    "head": "e40e82d282904e739a61d8642a004b04ccd9e240"
+    "head": "6c48f1d3d5adf5a72ddcc1975106cd2dff7af5ff"
   },
   {
     "id": {
@@ -18,7 +18,7 @@
       "scope": "bitdev.react",
       "name": "generators/react-templates"
     },
-    "head": "f6dc5b649c18e474bc56c2ac840e0c3a44d3aea6"
+    "head": "e256996e28008831d44e78512e7a2c02b4c79f16"
   },
   {
     "id": {
